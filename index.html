@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home Task</title>
+	<!--meta section-->
+		<meta charset="UTF-8">
+		<meta name="description" content="Hometask">
+		<meta name="keywords" content="HTML,CSS">
+		<meta name="author" content="borhan uddin bhuiyan">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1 style="background-color:#dfdfdf; color:green; text-align: center;">Shikhbe Shobai</h1>
+		<hr width="40%" color="black"/>
+		<h3 style="color:gray; text-align:center">
+		Batch: SSB-276 </h3>
+		<h5 style="color:gray; text-align:center">Home Work:Class 6(html-4) </h5>
+		<table class="table" align="center" border="1" cellspacing="0" >
+			<h2 align="center">W3schools 2nd 50 Element</h2>
+			<thead style="background-color:silver; color:darkgreen;" >
+				<th>Element</th>
+				<th width=40%>Description</th>
+				<th width="40%">Example</th>
+				<th >Code</th> 
+			</thead>
+			<tbody>
+			<tr>
+				<td>&lt;kbd&gt;</td>
+				<td>The <strong>HTML Keyboard Input element</strong> (<strong><code>&lt;kbd&gt;</code></strong>) represents a span of inline text denoting textual user input from a keyboard, voice input, or any other text entry device.</td>
+				<td><p id="kbd">Please press <kbd>Ctrl</kbd> + <kbd>R</kbd> to refresh this page.</p></td>
+				<td >
+				<pre>
+					<code>
+&lt;p id="kbd"&gt;Please press &lt;kbd&gt;Ctrlv/kbd&gt; +
+<br> &lt;kbd&gt;R&lt;/kbd&gt; to refresh this page.&lt;/p&gt;
+					</code>
+				</pre>
+				<tr>
+					<td>&lt;label&gt;</td>
+					<td>The <strong>HTML <code>&lt;label&gt;</code> element</strong> represents a caption for an item in a user interface.</td>
+					<td><div class="preference">
+						    <label for="coffee">Do you like coffee?</label>
+						    <input type="checkbox" name="coffee" id="coffee" checked="checked">
+						</div><br>
+
+						<div class="preference">
+						    <label for="tea">Do you like Tea?</label>
+						    <input type="checkbox" name="tea" id="tea" checked="checked">
+						</div>
+					</td>
+					<td >
+					 <pre>
+							<code>
+&lt;label for="coffee"&gt;Do you like coffee?&lt;/label&gt;
+&lt;input type="checkbox" name="coffee" id="coffee"&gt;
+
+&lt;label for="tea"&gt;Do you like Tea?&lt;/label&gt;
+&lt;input type="checkbox" name="tea" id="tea"&gt;
+
+							</code>
+						</pre>
+						
+					</td>
+				</tr>
+				<tr>
+					<td>&lt;legend&gt;</td>
+					<td>The <strong>HTML <code>&lt;legend&gt;</code> element</strong> represents a caption for the content of its parent <code>&lt;fieldset&gt;</code>.</td>
+					<td>
+					<fieldset>
+					    <legend>Choose your operating system</legend>
+
+					    <input type="radio" id="windos" name="system" checked="checked">
+					    <label for="windos">windos</label><br/>
+
+					    <input type="radio" id="macOs" name="system">
+					    <label for="macOs">macOs</label><br/>
+
+					    <input type="radio" id="linux" name="system">
+					    <label for="linux">linux</label>
+					</fieldset>
+					</td>
+					<td ><pre>
+<code>
+&lt;fieldset&gt;
+	&lt;legend&gt;Choose your operating 
+	system&lt;/legend&gt;
+
+	&lt;input type="radio" id="windos"
+	 name="system"&gt;
+	&lt;label for="windos"&gt;windos&lt;
+	/label&gt;&lt;br/&gt;
+
+	&lt;input type="radio" id="macOs" 
+	name="system"&gt;
+	&lt;label for="macOs"&gt;macOs&lt;
+	/label&gt;&lt;br/&gt;
+
+	&lt;input type="radio" id="linux"
+	 name="system"&gt;
+	&lt;label for="linux"&gt;
+	linux&lt;/label&gt;
+&lt;/fieldset&gt;
+</code>
+
+				</pre>
+					</td>
+				</tr>
+				<tr>
+					<td>&lt;li&gt;</td>
+					<td>The <strong>HTML <code>&lt;li&gt;</code> element</strong> is used to represent an item in a list.</td>
+					<td>
+						<ol><h3>Number List:</h3>
+							<li>one</li>
+							<li>two</li>
+							<li>three</li>
+							<li>four</li>
+							<li>five</li>	
+						</ol>
+					</td>
+					<td width="23%">
+						<pre>
+							<code>
+&lt;ol&gt;
+&lt;h3&gt;Number List:&lt;/h3&gt;
+	&lt;li&gt;one&lt;/li&gt;
+	&lt;li&gt;two&lt;/li&gt;
+	&lt;li&gt;three&lt;/li&gt;
+	&lt;li&gt;four&lt;/li&gt;
+	&lt;li&gt;five&lt;/li&gt;	
+&lt;/ol&gt;
+							</code>
+						</pre>
+					</td>
+				</tr>
+				<tr>
+					<td>&lt;link&gt;</td>
+					<td>he <strong>HTML External Resource Link element (<code>&lt;link&gt;</code>)</strong> specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.</td>
+					<td><link href="css/style.css" rel="stylesheet">
+
+					<p id="link">This text will be red as defined in the external stylesheet.</p>
+					<p style="color: blue">The <code>style</code> attribute can override it, though.</p>
+					</td>
+					<td>
+						<pre>
+							<code>
+&lt;link href="css/style.css" rel="stylesheet"&gt;
+
+&lt;p id="link"&gt;This text will be red as defined
+ in the external stylesheet.&lt;/p&gt;
+&lt;p style="color: blue"&gt;The 
+&lt;code&gt;style&lt;/code>&gt;attribute 
+can override it, though.&lt;/p&gt;								
+							&lt;</code>
+						</pre>
+						
+					</td>
+				</tr>
+				<tr>
+					<td>&lt;main&gt;</td>
+					<td>The <strong>HTML <code>&lt;main&gt;</code> element</strong> represents the dominant content of the <code>&lt;body&gt;</code> of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.</td>
+					<td><header>Gecko facts</header>
+
+						<main>
+						    <p>Geckos are a group of usually small, usually nocturnal lizards. They are found on every continent except Australia.</p>
+						 
+						    <p>Many species of gecko have adhesive toe pads which enable them to climb walls and even windows.</p>
+						</main>
+						</td>
+					<td>
+						<pre>
+							<code>
+&lt;main&gt;
+&lt;p&gt;Geckos are a group of usually small, usually nocturnal lizards.
+	They are found on every continent except Australia.&lt;/p&gt;
+
+	&lt;p&gt;Many species of gecko have adhesive toe pads
+	 which enable them to climb walls and even windows.&lt;/p&gt;
+&lt;/main&gt;								
+							</code>
+						</pre>
+					</td>
+				</tr>
+				<tr>
+					<td>&lt;map&gt;</td>
+					<td>The <strong>HTML <code>&lt;map&gt;</code> element</strong> is used with<code>&lt;area&gt;</code>elements to define an image map (a clickable link area)</td>
+					<td>
+					<map name="facebook">
+     					<area shape="circle" coords="230,150,60" href="https://www.facebook.com/rakib.bhuiyan.330/" alt="my facebook account">
+     				</map>
+     				<img src="images/facebook-icon.jpg" alt="facebook" usemap="#facebook" target="_blank">Please click on logo for going to my facebook profile</td>
+					<td>
+						<pre>
+							<code>
+&lt;map name="facebook"&gt;
+  	&lt;area shape="circle" coords="230,150,60" 
+  	href="https://www.facebook.com/rakib.bhuiyan.330/"
+  	alt="my facebook account"&gt;
+&lt;/map&gt;
+&lt;img src="images/facebook-icon.jpg" alt="facebook"
+usemap="#facebook" target="_blank"&gt;
+Please click on logo for going to my facebook profile
+							</code>
+						</pre>
+					</td>
+				</tr>
+				<tr>
+					<td>&lt;mark&gt;</td>
+					<td>The <strong>HTML Mark Text element</strong> (<strong><code>&lt;mark&gt;</code></strong>) represents text which is <strong>marked</strong> or <strong>highlighted</strong> for reference or notation purposes, due to the marked passage's relevance or importance in the enclosing context.</td>
+					<td align="center">
+						<input type="text" name="txt" id="txt" class="txt" value='Search for the word "Covid-19"' disabled="disabled">
+						<p align="justify">Coronavirus disease (<mark>COVID-19</mark>) is an infectious disease caused by a newly discovered coronavirus.<br><br>
+						Most people who fall sick with <mark>COVID-19</mark> will experience mild to moderate symptoms and recover without special treatment.</p>
+					</td>
+					<td>
+					<pre>
+						<code>
+&lt;input type="text" name="txt" id="txt" class="txt" 
+value='Search for the word "Covid-19"'disabled&gt;
+&lt;p align="justify">Coronavirus disease 
+(&lt;mark&gt;COVID-19&lt;/mark&gt;) is an infectious 
+disease caused by a newly discovered coronavirus.
+&lt;br&gt;&lt;br&gt;
+Most people who fall sick with &lt;mark&gt;COVID-19&lt;/mark&gt;
+will experience mild to moderate symptoms and recover without special treatment.&lt;/p&gt;
+						</code>
+					</pre>
+					</td>
+				</tr>
+				<tr>
+					<td>&lt;meta&gt;</td>
+					<td>The <strong>HTML <code>&lt;meta&gt;</code> element</strong> represents metadata that cannot be represented by other HTML meta-related elements, like <a href="#"><code>&lt;base&gt;</code></a>, <a href="#"><code>&lt;script&gt;</code></a>, <a href="#"><code>&lt;style&gt;</code></a> or <a href="#"><code>&lt;title&gt;</code></a></td>
+					<td>All meta information goes in the head section...
+						<p style="color:darkred;">Please inspect head section for meta application</p>
+					</td>
+					<td>
+						<pre>
+							<code>
+&lt;meta charset="UTF-8">
+&lt;meta name="description" content="Hometask">
+&lt;meta name="keywords" content="HTML,CSS">
+&lt;meta name="author" content="borhan uddin bhuiyan">
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+&lt;link rel="stylesheet" href="css/style.css">															
+							</code>
+						</pre>
+					</td>
+				</tr>
+				<tr>
+					<td>&lt;meter&gt;</td>
+					<td>The <strong>HTML <code>&lt;meter&gt;</code> element</strong> represents either a scalar value within a known range or a fractional value</td>
+					<td><label for="fuel">Fuel level:</label>
+
+						<meter id="fuel"
+						       min="0" max="100"
+						       low="33" high="66" optimum="80"
+						       value="50">
+						    at 50/100
+						</meter>
+</td>
+					<td>
+						<pre>
+							<code>
+&lt;label for="fuel">Fuel level:&lt;/label>
+
+&lt;meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="50">
+	at 50/100 
+&lt;/meter>
+							</code>
+						</pre>
+					</td>
+				</tr>
+				<tr>
+					<td>&lt;nav&gt;</td>
+					<td>The <strong>HTML <code>&lt;nav&gt;</code> element</strong> represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.</span></td>
+					<td align="center" valign="top"><nav class="navigation">
+					    <ol>
+					        <li class="navi"><a href="#">Home</a></li>
+					        <li class="navi"><a href="#">Main content</a></li>
+					        <li class="navi"><a href="#">Contact</a>
+					        </li>
+					    </ol>
+					</nav>
+</td>
+					<td>
+						<pre>
+							<code>
+&lt;nav class="navigation">
+	&lt;ol>
+		&lt;li class="navi">&lt;a href="#">Home&lt;/a>&lt;/li>
+		&lt;li class="navi">&lt;a href="#">Main content&lt;/a>&lt;/li>
+		&lt;li class="navi">&lt;a href="#">Contact&lt;/a>&lt;/li>
+	&lt;/ol>
+&lt;/nav>
+							</code>
+						</pre>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+	</body>
+</html>

@@ -1,0 +1,57 @@
+table.table{
+	background-color:#F9FAFB;
+	width:95%;
+	border:1px solid gray;
+	font-size:20px;
+	}
+table th td{
+	margin:auto;
+}
+p#kbd kbd{
+	 background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid red;
+    display: inline-block;
+}
+code{
+	color:blue;
+	font-size:13px;
+}
+.preference {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: .5rem;
+}
+#link{
+	color:red;
+}
+.txt{
+	width:95%;
+	font-size:20px;
+	text-align:center;
+	color:blue;
+}
+nav {
+    border-bottom: 1px solid black;
+    align-content: center;
+    vertical-align:top;
+}
+
+.navigation ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navi {
+    display: inline-block;
+}
+
+.navi a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
