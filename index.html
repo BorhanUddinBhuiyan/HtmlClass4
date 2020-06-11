@@ -296,6 +296,109 @@ will experience mild to moderate symptoms and recover without special treatment.
 						</pre>
 					</td>
 				</tr>
+								<tr>
+					<td>&lt;noscript&gt;</td>
+					<td>The <strong>HTML <code>&lt;noscript&gt;</code> element</strong> defines a section of HTML to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.</td>
+					<td>
+						<h1>The noscript element</h1>
+
+							<p>A browser with JavaScript disabled will show the text inside the noscript element ("Hello World!" will not be displayed).</p>
+
+							<script>
+							document.write("Hello World!")
+							</script>
+							<noscript>Sorry, your browser does not support JavaScript!</noscript></td>
+					<td>
+						<pre>
+							<code>
+&lt;h1>The noscript element&lt;/h1>
+
+&lt;p>A browser with JavaScript disabled will show the text inside the noscript element ("Hello World!" will not be displayed).&lt;/p>
+
+&lt;script>
+	document.write("Hello World!")
+&lt;/script>
+&lt;noscript>Sorry, your browser does not support JavaScript!&lt;/noscript>
+							</code>
+						</pre>
+					</td>
+				</tr>
+				<tr>
+					<td>&lt;object&gt;</td>
+					<td>The <strong>HTML <code>&lt;object&gt;</code> element</strong> represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin</td>
+					<td>
+						<object data="images/face.jpg" width="500"></object>
+					
+						<object data="videos/cello.mp4" width="500" height="300"></object>
+						<object data="assets/Batch-converted.pdf" width="500" height="200"></object>
+					</td>
+					<td>
+						<pre>
+							<code>
+&lt;object data="images/face.jpg" width="500">&lt;/object>
+
+&lt;object data="videos/cello.mp4" width="500" height="300">&lt;/object>
+&lt;object data="assets/Batch-converted.pdf" width="500" height="200">&lt;/object>
+
+							</code>
+						</pre>
+					</td>
+				</tr>
+				<tr>
+					<td>&lt;ol&gt;</td>
+					<td>The <strong>HTML <code>&lt;ol&gt;</code> element</strong> represents an ordered list of items — typically rendered as a numbered list.</td>
+					<td>
+						<ol>
+							<li>Computer
+								<ol type="a">
+									<li>Software
+										<ol type="A">
+											<li>MS Office
+												<ol type="i">
+													<li>MS Word</li>
+													<li>MS Excel</li>
+													<li>MS Powerpoint</li>
+												</ol>
+											</li>
+											<li>Adobe</li>
+											<li>Browsers</li>
+										</ol>
+									</li>
+									<li>Hardware</li>
+								</ol>
+							</li>
+
+						</ol>
+					</td>
+					<td>
+						<pre>
+							<code>
+&lt;ol>
+	&lt;li>Computer
+		&lt;ol type="a">
+			&lt;li>Software
+				&lt;ol type="A">
+					&lt;li>MS Office
+						&lt;ol type="i">
+							&lt;li>MS Word&lt;/li>
+							&lt;li>MS Excel&lt;/li>
+							&lt;li>MS Powerpoint&lt;/li>
+						&lt;/ol>
+					&lt;/li>
+					&lt;li>Adobe&lt;/li>
+					&lt;li>Browsers&lt;/li>
+				&lt;/ol>
+			&lt;/li>
+		&lt;li>Hardware&lt;/li>
+	&lt;/ol>
+	&lt;/li>
+	
+&lt;/ol>
+							</code>
+						</pre>
+					</td>
+				</tr>
+				
 			</tbody>
 		</table>
 
